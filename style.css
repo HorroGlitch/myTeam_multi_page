@@ -3,3 +3,205 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header{
+  padding: 1rem;
+}
+
+
+:root {
+  --main-bg-color: #014E56;
+  --second-bg-color: #012F34;
+  --main-text-color: #FFFFFF;
+  --second-text-color: #79c8c7;
+  --dl-h3-color : #f67e7e;
+}
+
+header{
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
+
+header p{
+  line-height: 30px;
+}
+
+header h2{
+  padding: 1rem;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10% 5%;
+  justify-content: space-between;
+}
+
+main{
+  background-color: var(--main-bg-color);
+}
+
+.experience{
+  background-color: var(--second-bg-color);
+  padding: 1rem;
+}
+
+dt::before {
+  content: url("/public/assets/icon-person.svg");
+}
+
+h1,h2,h3,dt,dd,p,blockquote{
+  color: var(--main-text-color);
+}
+
+blockquote{
+  width: 80%;
+  display: flex;
+  text-align: center;
+  /* width: 100%; */
+}
+
+h1 {
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 span{
+  color : var(--second-text-color) ;
+}
+
+h2 span{
+  color: var(--dl-h3-color);
+}
+
+p{
+  display: flex;
+  text-align: center;
+}
+
+article h3{
+  display: flex;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+section h2{
+  display: flex;
+  text-align: left;
+  width: 40%;
+}
+
+.arthurImg{
+  width: 64px;
+  height: 64px;
+  border: 3px solid var(--second-text-color) ;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.aiyshaImg{
+  width: 64px;
+  height: 64px;
+  border: 3px solid var(--second-text-color) ;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.kadyImg{
+  width: 64px;
+  height: 64px;
+  border: 3px solid var(--second-text-color) ;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+dl {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+dl dt{
+  color: var(--dl-h3-color);
+}
+
+article h3{
+  color: var(--second-text-color);
+  display: flex;
+  text-align: center;
+}
+
+.userCommentary{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.userCommentary h1{
+  padding: 3rem;
+}
+
+.userCommentary article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--second-bg-color);
+  gap: 1em;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style: none;
+}
+
+.getStarted{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  background-color: var(--dl-h3-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+.getStarted h2{
+  color: var(--second-bg-color);
+}
+
+
+address{
+  color: var(--main-text-color);
+}
+
+.getStarted a{
+  border: solid 2px var(--second-bg-color);
+  border-radius: 10px;
+  text-decoration-line: none;
+}
