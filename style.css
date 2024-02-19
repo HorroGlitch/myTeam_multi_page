@@ -32,6 +32,10 @@ header p{
   line-height: 30px;
 }
 
+h2{
+  font-size: 40px;
+}
+
 header h2{
   padding: 1rem;
 }
@@ -50,6 +54,10 @@ main{
 .experience{
   background-color: var(--second-bg-color);
   padding: 1rem;
+}
+
+.logoReseaux{
+  width: 32px;
 }
 
 dt::before {
@@ -157,7 +165,9 @@ article h3{
   padding: 3rem;
 }
 
-.userCommentary article{
+.userCommentary
+{
+  height: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -202,6 +212,9 @@ address{
 
 .getStarted a{
   border: solid 2px var(--second-bg-color);
-  border-radius: 10px;
+  border-radius: 25px;
+  text-align: center;
   text-decoration-line: none;
+  width: 153px;
+  height: 48px;
 }

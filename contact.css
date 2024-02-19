@@ -1,0 +1,39 @@
+:root {
+    --main-bg-color: #014E56;
+    --second-bg-color: #012F34;
+    --main-text-color: #FFFFFF;
+    --second-text-color: #79c8c7;
+    --dl-h3-color : #f67e7e;
+  }
+
+footer {
+    row-gap: 2.5em;
+}
+
+.contactsIcons{
+    width: 75px;
+}
+
+.askUs{
+    color: var(--dl-h3-color);
+}
+
+form{
+    padding: 1.5rem;
+}
+
+form input{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: var(--main-text-color);
+    opacity: 70%;
+    color: white;
+}
