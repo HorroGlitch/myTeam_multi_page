@@ -9,12 +9,11 @@
   <body>
 
     <header>
-        <nav>
-      
+        <div class="navHome">
             <img src="public/assets/logo.svg" alt="myteam">
-            <img src="public/assets/icon-hamburger.svg" alt="burgerMenu">
-        
-        </nav>
+            <img src="public/assets/icon-hamburger.svg" alt="burgerMenu">      
+        </div>
+    
 
         <h2>Contact</h2>
         <h2 class="askUs">Ask us about</h2>
@@ -23,17 +22,17 @@
     <main>
         <ul>
 
-            <li>
+            <li class="askUsAbout">
                 <img src="/public/assets/icon-person.svg" alt="expIndivImg" class="contactsIcons">
                 <p>The quality of our talent network</p>
             </li>
 
-            <li>
+            <li class="askUsAbout">
                 <img src="/public/assets/icon-cog.svg" alt="easyImplemImg" class="contactsIcons">
                 <p>Usage & implementation of our software</p>
             </li>
 
-            <li>
+            <li class="askUsAbout">
                 <img src="/public/assets/icon-chart.svg" alt="enhancerProdImg" class="contactsIcons">
                 <p>How we help drive innovation</p>
             </li>
@@ -41,13 +40,13 @@
         </ul>
 
         <form action="" method="get">
-            <input type="text" name="name" id="name" required />
-            <input type="email" name="email" id="email" required />
-            <input type="text" name="companyName" id="companyName" required />
-            <input type="text" name="title" id="title" required />
-            <input type="text" name="message" id="message" required />
+            <input type="text" name="name" id="name" class="textArea" required />
+            <input type="email" name="email" id="email" class="textArea" required />
+            <input type="text" name="companyName" id="companyName" class="textArea" required />
+            <input type="text" name="title" id="title" class="textArea" required />
+            <input type="text" name="message" id="message" class="textArea" required />
 
-            <input type="button" class="contactUs">
+            <input type="submit" value="submit" class="contactUs">
         </form>
     </main>
 

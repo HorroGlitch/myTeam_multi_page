@@ -22,7 +22,7 @@ form{
     padding: 1.5rem;
 }
 
-form input{
+.textArea{
     height: 75px;
     width: 100%;
     display: flex;
@@ -36,4 +36,15 @@ form input{
     border-color: var(--main-text-color);
     opacity: 70%;
     color: white;
+}
+
+.contactUs{
+  border: solid 2px var(--second-bg-color);
+  border-radius: 25px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration-line: none;
+  width: 123px;
+  height: 48px;
+  color: var(--second-bg-color);
 }
